@@ -1,33 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@font-face {
+    font-family: "Montserrat";
+    src: url("./fonts/Montserrat-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 body {
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
-    width: 1920px;
-    max-width: 100%;
+    width: 100%;
 }
 
 .about {
-    background-image: url("./img/back.png");
+    background-image: url("./img/background.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 805px;
 }
 
-.payment {
+.about .about__payment {
     margin-top: 310px;
     background: #003F84;
-    border-radius: 0px 6px 6px 0px;
+    border-radius: 0 6px 6px 0;
     position: absolute;
 }
 
-.payment img {
+.about .about__payment img {
     margin-top: 17px;
     margin-left: 12px;
     margin-right: 16px;
 }
 
-.payment p {
+.about .about__payment p {
     transform: rotate( 180deg);
     writing-mode: tb-rl;
     color: white;
@@ -40,85 +45,88 @@ body {
 
 .header {
     padding-top: 13px;
-    height: 77px;
+    margin-left: 317px;
+    height: 71px;
 }
 
-.container {
-    width: 1280px;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.header__row {
+.header .header__row {
     display: flex;
     align-items: center;
 }
 
-.header__menu {
-    margin-right: 89px;
-    margin-left: 83px;
+.header .header__menu ul {
+    padding-left: 0px;
 }
 
-.header__menu li {
+.header .header__menu li {
     list-style-type: none;
 }
 
-.header__menu a {
+.header .header__item {
     color: white;
     font-size: 16px;
-    padding-left: 15px;
     text-decoration: none;
+    padding-left: 61px;
 }
 
-.header__contacts {
+.header .header__item:hover {
+    color: #53B0FF;
+}
+
+.header .header__contacts {
+    height: 23px;
     display: flex;
 }
 
-.contacts__item {
+.header .header__data {
     display: flex;
     align-items: center;
-    margin-right: 78px;
     color: white;
     font-size: 22px;
+    margin-left: 61px;
 }
 
-.header__contacts img {
+.header .header__arrow {
+    margin-left: 10px;
+}
+
+.header .header__data img {
     float: left;
     margin-right: 11px;
 }
 
-.about__description {
+.about .about__description {
     margin-top: 137px;
+    margin-left: 317px;
     width: 391px;
 }
 
-.about__title h1 {
+.about .about__title h1 {
     margin-bottom: 51px;
     color: white;
 }
 
-.about__title li {
+.about .about__title li {
     margin-top: 25px;
     color: white;
 }
 
-.about__image {
+.about .about__image {
     margin-left: 90%;
 }
 
-.about__image #male {
+.about .about__image .male {
     position: absolute;
     top: 213px;
 }
 
-.about__image #female {
+.about .about__image .female {
     position: absolute;
     top: 288px;
     margin-left: 330px;
 }
 
-.feedback {
+.about__feedback {
     left: 1224px;
     top: 190px;
     position: absolute;
@@ -130,17 +138,17 @@ body {
     border-radius: 6px;
 }
 
-.feedback__container {
+.about__container {
     margin-left: 50px;
     margin-right: 50px;
 }
 
-.feedback h1 {
+.about__feedback h1 {
     text-align: center;
     color: #FFFFFF;
 }
 
-.feedback input {
+.about__feedback input {
     padding-top: 10px;
     padding-left: 20px;
     padding-bottom: 10px;
@@ -151,13 +159,13 @@ body {
     border-radius: 6px;
 }
 
-.feedback #question {
+.about__feedback .question {
     margin-top: 10px;
     height: 96px;
 }
 
-.feedback input::placeholder {
-    font-family: Montserrat;
+.about__feedback input::placeholder {
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -165,7 +173,7 @@ body {
     color: #FFFFFF;
 }
 
-.feedback button {
+.about__feedback button {
     margin-top: 10px;
     width: 278px;
     height: 47px;
@@ -173,18 +181,199 @@ body {
     border-radius: 7px;
     border: none;
     font-size: 16px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: #FFFFFF;
 }
 
-.feedback p {
+.about__feedback button:hover {
+    cursor: pointer;
+}
+
+.about__feedback p {
     margin-top: 16px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 11px;
     line-height: 17px;
     text-align: center;
     color: white;
+}
+
+.services {
+    margin-top: 0px;
+    margin-left: 318px;
+    margin-right: 318px;
+}
+
+.services .services__title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 46px;
+    line-height: 85px;
+    text-align: center;
+    color: #000000;
+}
+
+.services .services__cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1284px;
+}
+
+.services .services__card-1 {
+    position: relative;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.services .services__card-2 {
+    margin-right: 38px;
+}
+
+.services .services__card-4 {
+    margin-right: 40px;
+}
+
+.services .services__card-5 {
+    margin-right: 38px;
+}
+
+.services .services__content {
+    width: 314px;
+    height: 44px;
+    margin-left: 49px;
+    margin-top: 30px;
+    position: absolute;
+    z-index: 2;
+}
+
+.services .services__card-back {
+    position: absolute;
+    z-index: 1;
+}
+
+.services .services__content {
+    width: 198px;
+    height: 142px;
+}
+
+.services .services__content p {
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.services .services__arrow {
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 349px;
+    margin-right: 33px;
+}
+
+.reviews {
+    margin-top: 59px;
+    margin-right: 318px;
+    margin-left: 318px;
+}
+
+.reviews .reviews__title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 85px;
+    text-align: center;
+    color: #000000;
+}
+
+.reviews .reviews__cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1278px;
+}
+
+.reviews .reviews__card {
+    background: #FFFFFF;
+    border: 1px solid #CDD1D8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 400px;
+    height: 417px;
+    padding-top: 31px;
+    padding-left: 27px;
+    margin-left: auto;
+    margin-bottom: 40px;
+}
+
+.reviews .reviews__title-card img {
+    float: left;
+    margin-right: 20px;
+}
+
+.reviews .reviews__date-card {
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #828282;
+}
+
+.reviews .reviews__name-card {
+    margin-top: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: #1277D3;
+}
+
+.reviews .reviews__case-card {
+    margin-top: 8px;
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+}
+
+.reviews .reviews__description-card {
+    margin-top: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.reviews .reviews__description-next {
+    color: #1277D3;
+}
+
+.reviews .reviews__document-card {
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.reviews .reviews__document-card img {
+    margin-right: 10px;
+}
+
+.reviews .reviews__look-document {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #1277D3;
 }
