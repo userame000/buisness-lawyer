@@ -11,10 +11,76 @@ body {
     width: 100%;
 }
 
-._container {
+/* ************************ШАПКА************************ */
+
+.header {
+    padding-top: 20px;
+    height: 71px;
+    position: absolute;
+    width: 100%;
+}
+
+.header .header__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .header__menu ul {
+    width: 461px;
+    margin-right: 94px;
+}
+
+.header .header__menu li {
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.header .header__item {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+    padding-left: 23px;
+}
+
+.header .header__item:hover {
+    color: #53B0FF;
+}
+
+.header .header__contacts {
+    width: 462px;
+    height: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .header__data {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+}
+
+.header .header__arrow {
+    margin-left: 50px;
+    margin-right: -10px;
+}
+
+.header .header__data img {
+    float: left;
+    margin-right: 11px;
+}
+
+.header__container {
     max-width: 1280px;
     margin: 0px auto;
 }
+
+/* ************************ОПИСАНИЕ************************ */
 
 .about {
     background-image: url("./img/background.jpg");
@@ -40,7 +106,7 @@ body {
 .about .about__payment p {
     transform: rotate( 180deg);
     writing-mode: tb-rl;
-    color: white;
+    color: #FFFFFF;
     font-size: 15px;
     margin-right: 16px;
     margin-left: 12px;
@@ -48,63 +114,12 @@ body {
     margin-bottom: 22px;
 }
 
-.header {
-    padding-top: 18 px;
-    height: 71px;
-    width: 100%;
-}
-
-.header .header__row {
-    display: flex;
-    align-items: center;
-}
-
-.header .header__menu ul {
-    padding-left: 44px;
-}
-
-.header .header__menu li {
-    list-style-type: none;
-}
-
-.header .header__item {
-    color: white;
-    font-size: 16px;
-    text-decoration: none;
-    padding-left: 36px;
-}
-
-.header .header__item:hover {
-    color: #53B0FF;
-}
-
-.header .header__contacts {
-    height: 23px;
-    display: flex;
-}
-
-.header .header__data {
-    display: flex;
-    align-items: center;
-    color: white;
-    font-size: 22px;
-    margin-left: 61px;
-}
-
-.header .header__arrow {
-    margin-left: 50px;
-}
-
-.header .header__data img {
-    float: left;
-    margin-right: 11px;
-}
-
-.about .about__title{
-    margin-top: 137px;
+.about .about__title {
+    padding-top: 240px;
     height: 370px;
     width: 389px;
 }
+
 .about .about__title h1 {
     margin-top: 0px;
     margin-bottom: 51px;
@@ -115,7 +130,6 @@ body {
     margin-top: 25px;
     color: white;
 }
-
 
 .about .about__image .male {
     position: absolute;
@@ -129,7 +143,7 @@ body {
     margin-left: 606px;
 }
 
-.about__feedback {
+.feedback {
     position: absolute;
     width: 381px;
     height: 462px;
@@ -140,15 +154,15 @@ body {
     padding-left: 50px;
     padding-right: 50px;
     top: 190px;
-    margin-left: 900px;
+    right: 200px;
 }
 
-.about__feedback h1 {
+.feedback h1 {
     text-align: center;
     color: #FFFFFF;
 }
 
-.about__feedback input {
+.feedback input {
     padding-top: 10px;
     padding-left: 20px;
     padding-bottom: 10px;
@@ -158,13 +172,30 @@ body {
     box-sizing: border-box;
     border-radius: 6px;
 }
-
-.about__feedback .question {
+.question {
     margin-top: 10px;
     height: 96px;
 }
 
-.about__feedback input::placeholder {
+.question {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    width: 278px;
+    background: #18589E;
+    border: 1px solid #4A8FCE;
+    box-sizing: border-box;
+    border-radius: 6px;
+    resize: none;
+}
+.question::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.feedback input::placeholder {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -173,7 +204,7 @@ body {
     color: #FFFFFF;
 }
 
-.about__feedback button {
+.feedback button {
     margin-top: 10px;
     width: 278px;
     height: 47px;
@@ -186,14 +217,14 @@ body {
     color: #FFFFFF;
 }
 
-.about__feedback button:hover {
+.feedback button:hover {
     cursor: pointer;
     background: rgba(0, 0, 0, 0);
     color: #ffffff;
     box-shadow: inset 0 0 0 3px #53B0FF;
 }
 
-.about__feedback p {
+.feedback p {
     margin-top: 16px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -203,6 +234,13 @@ body {
     text-align: center;
     color: white;
 }
+
+.about__container {
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+/* ************************УСЛУГИ************************ */
 
 .services {
     margin-top: 0px;
@@ -223,7 +261,8 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.services__card{
+
+.services__card {
     margin-bottom: 48px;
 }
 
@@ -262,6 +301,13 @@ body {
     margin-left: 349px;
     margin-right: 33px;
 }
+
+.services__container {
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+/* ************************ОТЗЫВЫ************************ */
 
 .reviews {
     margin-top: -45px;
@@ -371,4 +417,9 @@ body {
     color: #003F84;
     cursor: pointer;
     user-select: none;
+}
+
+.reviews__container {
+    max-width: 1280px;
+    margin: 0px auto;
 }
