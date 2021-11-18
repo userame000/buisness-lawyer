@@ -627,7 +627,7 @@ body {
   line-height: 34px;
   color: #ffffff;
 }
- .b-call button {
+.b-call button {
   background: #53b0ff;
   border-radius: 4px;
   width: 278px;
@@ -726,4 +726,59 @@ body {
   cursor: pointer;
   color: #1276d3b9;
   text-decoration: underline;
+}
+
+/* ************************МИССИЯ************************ */
+
+.b-mission {
+  margin-top: 49px;
+}
+.b-mission .mission__container {
+    border-radius: 6px;
+  width: 1278px;
+  height: 403px;
+  margin: 0 auto;
+  background-image: url("./img/mission.back.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.b-mission .mission__title {
+  padding-top: 78px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  color: #ffffff;
+}
+.b-mission .mission__descriptions {
+  margin-top: 0px;
+  width: 1164px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+.b-mission .mission__description {
+  display: flex;
+}
+.b-mission .mission__description h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+.b-mission .mission__description p {
+  margin-top: 50px;
+  margin-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
 }
