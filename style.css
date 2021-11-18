@@ -1,459 +1,461 @@
 @font-face {
-    font-family: "Montserrat";
-    src: url("./fonts/Montserrat-Medium.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
 }
 
 body {
-    margin: 0 auto;
-    font-family: 'Montserrat', sans-serif;
-    width: 100%;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  width: 100%;
 }
 
 /* ************************ШАПКА************************ */
 
 .b-header {
-    padding-top: 20px;
-    height: 71px;
-    position: absolute;
-    width: 100%;
+  padding-top: 20px;
+  height: 71px;
+  position: absolute;
+  width: 100%;
 }
 
 .b-header .b-header__row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .b-header .b-header__menu ul {
-    width: 461px;
-    margin-right: 94px;
+  width: 461px;
+  margin-right: 94px;
 }
 
 .b-header .b-header__menu li {
-    list-style-type: none;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    color: #FFFFFF;
+  list-style-type: none;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
 }
 
 .b-header .b-header__item {
-    color: #FFFFFF;
-    font-size: 16px;
-    text-decoration: none;
-    padding-left: 23px;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  padding-left: 23px;
 }
 
 .b-header .b-header__item:hover {
-    color: #53B0FF;
+  color: #53b0ff;
 }
 
 .b-header .b-header__contacts {
-    width: 462px;
-    height: 23px;
-    display: flex;
-    justify-content: space-between;
+  width: 462px;
+  height: 23px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .b-header .b-header__data {
-    display: flex;
-    align-items: center;
-    color: white;
-    font-size: 22px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
 }
 
 .b-header .b-header__arrow {
-    margin-left: 50px;
-    margin-right: -10px;
+  margin-left: 50px;
+  margin-right: -10px;
 }
 
 .b-header .b-header__data img {
-    float: left;
-    margin-right: 11px;
+  float: left;
+  margin-right: 11px;
 }
 
 .b-header__container {
-    max-width: 1280px;
-    margin: 0px auto;
+  max-width: 1280px;
+  margin: 0px auto;
 }
 
 /* ************************ОБРАТНАЯ СВЯЗЬ************************ */
 
 .b-feedback {
-    z-index: 3;
-    position: absolute;
-    width: 381px;
-    height: 462px;
-    background: rgba(0, 94, 163, 0.7);
-    border: 3px solid #53B0FF;
-    box-sizing: border-box;
-    border-radius: 6px;
-    padding-left: 50px;
-    padding-right: 50px;
-    top: 190px;
-    right: 318px;
+  z-index: 3;
+  position: absolute;
+  width: 381px;
+  height: 462px;
+  background: rgba(0, 94, 163, 0.7);
+  border: 3px solid #53b0ff;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding-left: 50px;
+  padding-right: 50px;
+  top: 190px;
+  right: 318px;
 }
 
 .b-feedback h1 {
-    text-align: center;
-    color: #FFFFFF;
+  text-align: center;
+  color: #ffffff;
 }
 
 .b-feedback input {
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    width: 278px;
-    background: #18589E;
-    border: 1px solid #4A8FCE;
-    box-sizing: border-box;
-    border-radius: 6px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  width: 278px;
+  background: #18589e;
+  border: 1px solid #4a8fce;
+  box-sizing: border-box;
+  border-radius: 6px;
 }
 
 .b-feedback textarea {
-    margin-top: 10px;
-    height: 96px;
+  margin-top: 10px;
+  height: 96px;
 }
 
 .b-feedback textarea {
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    width: 278px;
-    background: #18589E;
-    border: 1px solid #4A8FCE;
-    box-sizing: border-box;
-    border-radius: 6px;
-    resize: none;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  width: 278px;
+  background: #18589e;
+  border: 1px solid #4a8fce;
+  box-sizing: border-box;
+  border-radius: 6px;
+  resize: none;
 }
 
 .b-feedback textarea::placeholder {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #ffffff;
 }
 
 .b-feedback input::placeholder {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 34px;
-    color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 34px;
+  color: #ffffff;
 }
 
 .b-feedback button {
-    margin-top: 10px;
-    width: 278px;
-    height: 47px;
-    background: #53B0FF;
-    border-radius: 7px;
-    border: none;
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    color: #FFFFFF;
+  margin-top: 10px;
+  width: 278px;
+  height: 47px;
+  background: #53b0ff;
+  border-radius: 7px;
+  border: none;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #ffffff;
 }
 
 .b-feedback button:hover {
-    cursor: pointer;
-    background: rgba(0, 0, 0, 0);
-    color: #ffffff;
-    box-shadow: inset 0 0 0 3px #53B0FF;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0);
+  color: #ffffff;
+  box-shadow: inset 0 0 0 3px #53b0ff;
 }
 
 .b-feedback p {
-    margin-top: 16px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 11px;
-    line-height: 17px;
-    text-align: center;
-    color: white;
+  margin-top: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 17px;
+  text-align: center;
+  color: white;
 }
 
 .b-feedback__container a {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 11px;
-    line-height: 17px;
-    text-align: center;
-    color: #FFFFFF;
-    text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .b-feedback__container a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* ************************ОПИСАНИЕ************************ */
 
 .b-about {
-    background-image: url("./img/background.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 805px;
+  background-image: url("./img/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 805px;
 }
 
 .b-about .b-about__payment {
-    margin-top: 310px;
-    background: #003F84;
-    border-radius: 0 6px 6px 0;
-    position: absolute;
+  margin-top: 310px;
+  background: #003f84;
+  border-radius: 0 6px 6px 0;
+  position: absolute;
 }
 
 .b-about .b-about__payment img {
-    margin-top: 17px;
-    margin-left: 12px;
-    margin-right: 16px;
+  margin-top: 17px;
+  margin-left: 12px;
+  margin-right: 16px;
 }
 
 .b-about .b-about__payment p {
-    transform: rotate( 180deg);
-    writing-mode: tb-rl;
-    color: #FFFFFF;
-    font-size: 15px;
-    margin-right: 16px;
-    margin-left: 12px;
-    margin-top: 10px;
-    margin-bottom: 22px;
+  transform: rotate(180deg);
+  writing-mode: tb-rl;
+  color: #ffffff;
+  font-size: 15px;
+  margin-right: 16px;
+  margin-left: 12px;
+  margin-top: 10px;
+  margin-bottom: 22px;
 }
 
 .b-about .b-about__title {
-    padding-top: 240px;
-    height: 370px;
-    width: 389px;
+  padding-top: 240px;
+  height: 370px;
+  width: 389px;
 }
 
 .b-about .b-about__title h1 {
-    margin-top: 0px;
-    margin-bottom: 51px;
-    color: white;
+  margin-top: 0px;
+  margin-bottom: 51px;
+  color: white;
 }
 
 .b-about .b-about__title li {
-    margin-left: -20px;
-    margin-top: 25px;
-    color: white;
+  margin-left: -20px;
+  margin-top: 25px;
+  color: white;
 }
 
-.b-about .b-about__image .male {
-    position: absolute;
-    top: 213px;
-    left: 593px;
+.b-about .b-about__male {
+  position: absolute;
+  top: 213px;
+  left: 593px;
 }
 
-.b-about .b-about__image .female {
-    position: absolute;
-    top: 288px;
-    left: 923px;
+.b-about .b-about__female {
+  position: absolute;
+  top: 288px;
+  left: 923px;
 }
 
 .b-about__container {
-    max-width: 1280px;
-    margin: 0px auto;
+  max-width: 1280px;
+  margin: 0px auto;
 }
 
 /* ************************УСЛУГИ************************ */
 
 .b-services {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
 .b-services .b-services__title {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-size: 46px;
-    line-height: 85px;
-    text-align: center;
-    color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-size: 46px;
+  line-height: 85px;
+  text-align: center;
+  color: #000000;
 }
 
 .b-services .b-services__cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .b-services__card {
-    margin-bottom: 48px;
+  margin-bottom: 48px;
 }
 
 .b-services .b-services__content {
-    width: 314px;
-    height: 44px;
-    margin-left: 49px;
-    margin-top: 30px;
-    position: absolute;
-    z-index: 2;
+  width: 314px;
+  height: 44px;
+  margin-left: 49px;
+  margin-top: 30px;
+  position: absolute;
+  z-index: 2;
 }
 
 .b-services .b-services__card-back {
-    position: absolute;
-    z-index: 1;
+  position: absolute;
+  z-index: 1;
 }
 
 .b-services .b-services__content {
-    width: 198px;
-    height: 142px;
+  width: 198px;
+  height: 142px;
 }
 
 .b-services .b-services__content p {
-    position: absolute;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 26px;
-    color: #FFFFFF;
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
 }
 
 .b-services .g-services__arrow {
-    cursor: pointer;
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    border-radius: 0 2px 0 0;
-    border-top: 3px solid #ffffff;
-    border-right: 3px solid #ffffff;
-    margin-top: 170px;
-    margin-left: 349px;
-    margin-right: 60px;
-    transform: rotate(45deg);
+  cursor: pointer;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 0 2px 0 0;
+  border-top: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+  margin-top: 170px;
+  margin-left: 349px;
+  margin-right: 60px;
+  transform: rotate(45deg);
 }
 
 .b-services .g-services__arrow:hover {
-    border-top: 3px solid #53B0FF;
-    border-right: 3px solid #53B0FF;
+  border-top: 3px solid #53b0ff;
+  border-right: 3px solid #53b0ff;
 }
 
 .b-services__container {
-    max-width: 1280px;
-    margin: 0px auto;
+  max-width: 1280px;
+  margin: 0px auto;
 }
 
 /* ************************ОТЗЫВЫ************************ */
 
 .b-reviews {
-    margin-top: -45px;
+  margin-top: -45px;
 }
 
 .b-reviews .b-reviews__title {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 46px;
-    line-height: 85px;
-    text-align: center;
-    color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 85px;
+  text-align: center;
+  color: #000000;
 }
 
 .b-reviews .b-reviews__cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .b-reviews .b-reviews__card {
-    background: #FFFFFF;
-    border: 1px solid #CDD1D8;
-    box-sizing: border-box;
-    border-radius: 4px;
-    width: 400px;
-    height: 417px;
-    padding-top: 31px;
-    padding-left: 27px;
-    margin-bottom: 40px;
+  background: #ffffff;
+  border: 1px solid #cdd1d8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 400px;
+  height: 417px;
+  padding-top: 31px;
+  padding-left: 27px;
+  margin-bottom: 40px;
 }
 
 .b-reviews .b-reviews__title-card img {
-    float: left;
-    margin-right: 20px;
+  float: left;
+  margin-right: 20px;
 }
 
 .b-reviews .b-reviews__date-card {
-    font-family: Manrope, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    color: #828282;
+  font-family: Manrope, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #828282;
 }
 
 .b-reviews .b-reviews__name-card {
-    margin-top: 19px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    color: #1277D3;
+  margin-top: 19px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  color: #1277d3;
 }
 
 .b-reviews .b-reviews__case-card {
-    margin-top: 8px;
-    font-family: Manrope, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    color: #000000;
+  margin-top: 8px;
+  font-family: Manrope, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000000;
 }
 
 .b-reviews .b-reviews__description-card {
-    margin-top: 40px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 22px;
-    color: #000000;
+  margin-top: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
 }
 
 .b-reviews .b-reviews__description-next {
-    color: #1277D3;
+  color: #1277d3;
 }
 
 .b-reviews .b-reviews__description-next:hover {
-    text-decoration: underline;
-    cursor: pointer;
-    user-select: none;
+  text-decoration: underline;
+  cursor: pointer;
+  user-select: none;
 }
 
 .b-reviews .b-reviews__document-card {
-    margin-top: 22px;
-    display: flex;
-    align-items: center;
+  margin-top: 45px;
+  display: flex;
+  align-items: center;
 }
 
 .b-reviews .b-reviews__document-card img {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .b-reviews .b-reviews__look-document {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 22px;
-    text-transform: uppercase;
-    color: #1277D3;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #1277d3;
 }
 
 .b-reviews .b-reviews__look-document:hover {
-    color: #003F84;
-    cursor: pointer;
-    user-select: none;
+  color: #003f84;
+  cursor: pointer;
+  user-select: none;
 }
 
 .b-reviews__container {
-    max-width: 1280px;
-    margin: 0px auto;
+  max-width: 1280px;
+  margin: 0px auto;
 }
