@@ -21,18 +21,18 @@ body {
   width: 100%;
 }
 
-.b-header .b-header__row {
+.b-header .header__row {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.b-header .b-header__menu ul {
+.b-menu ul {
   width: 461px;
   margin-right: 94px;
 }
 
-.b-header .b-header__menu li {
+.b-menu li {
   list-style-type: none;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -41,25 +41,25 @@ body {
   color: #ffffff;
 }
 
-.b-header .b-header__item {
+.b-menu .menu__item {
   color: #ffffff;
   font-size: 16px;
   text-decoration: none;
   padding-left: 23px;
 }
 
-.b-header .b-header__item:hover {
+.b-menu .menu__item:hover {
   color: #53b0ff;
 }
 
-.b-header .b-header__contacts {
+.b-header .header__contacts {
   width: 462px;
   height: 23px;
   display: flex;
   justify-content: space-between;
 }
 
-.b-header .b-header__data {
+.b-header .header__data {
   display: flex;
   align-items: center;
   color: white;
@@ -67,17 +67,27 @@ body {
   font-weight: 600;
 }
 
-.b-header .b-header__arrow {
+.b-header .header__data img {
+    float: left;
+    margin-right: 11px;
+  }
+.b-select-city {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+.b-select-city img {
+    float: left;
+    margin-right: 11px;
+  }
+.b-select-city .select-city__arrow {
   margin-left: 50px;
   margin-right: -10px;
 }
 
-.b-header .b-header__data img {
-  float: left;
-  margin-right: 11px;
-}
-
-.b-header__container {
+.header__container {
   max-width: 1280px;
   margin: 0px auto;
 }
