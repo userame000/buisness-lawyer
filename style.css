@@ -601,13 +601,13 @@ body {
 
   opacity: 0.5;
 }
-.b-application .application__call {
+.b-application .b-call {
   width: 278px;
   margin-top: 151px;
   margin-left: 39px;
   height: 184px;
 }
-.b-application .application__call input {
+.b-call input {
   background: #18589e;
   border: 1px solid #4a8fce;
   box-sizing: border-box;
@@ -619,7 +619,7 @@ body {
   padding-bottom: 20px;
   margin-bottom: 10px;
 }
-.b-application .application__call input::placeholder {
+.b-call input::placeholder {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -627,8 +627,7 @@ body {
   line-height: 34px;
   color: #ffffff;
 }
-
-.b-application .application__call button {
+ .b-call button {
   background: #53b0ff;
   border-radius: 4px;
   width: 278px;
@@ -642,7 +641,7 @@ body {
   color: #ffffff;
   border: none;
 }
-.b-application .application__call button:hover {
+.b-call button:hover {
   cursor: pointer;
   background: rgba(0, 0, 0, 0);
   color: #ffffff;
@@ -712,7 +711,7 @@ body {
   line-height: 26px;
 }
 .b-examples .examples__card-view {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -723,8 +722,8 @@ body {
   color: #1277d3;
   margin-top: 23px;
 }
-.b-examples .examples__card-view:hover{
-    cursor: pointer;
-    color: #1276d3b9;
-    text-decoration: underline;
+.b-examples .examples__card-view:hover {
+  cursor: pointer;
+  color: #1276d3b9;
+  text-decoration: underline;
 }
