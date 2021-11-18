@@ -68,9 +68,9 @@ body {
 }
 
 .b-header .header__data img {
-    float: left;
-    margin-right: 11px;
-  }
+  float: left;
+  margin-right: 11px;
+}
 .b-select-city {
   display: flex;
   align-items: center;
@@ -79,9 +79,9 @@ body {
   font-weight: 600;
 }
 .b-select-city img {
-    float: left;
-    margin-right: 11px;
-  }
+  float: left;
+  margin-right: 11px;
+}
 .b-select-city .select-city__arrow {
   margin-left: 50px;
   margin-right: -10px;
@@ -190,7 +190,7 @@ body {
   color: white;
 }
 
-.b-feedback__container a {
+.b-feedback .feedback__container a {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -215,20 +215,55 @@ body {
   height: 805px;
 }
 
-.b-about .b-about__payment {
+.b-about .about__title {
+  padding-top: 240px;
+  height: 370px;
+  width: 389px;
+}
+
+.b-about .about__title h1 {
+  margin-top: 0px;
+  margin-bottom: 51px;
+  color: white;
+}
+
+.b-about .about__title li {
+  margin-left: -20px;
+  margin-top: 25px;
+  color: white;
+}
+
+.b-about .about__male {
+  position: absolute;
+  top: 213px;
+  left: 593px;
+}
+
+.b-about .about__female {
+  position: absolute;
+  top: 288px;
+  left: 923px;
+}
+
+.about__container {
+  max-width: 1280px;
+  margin: 0px auto;
+}
+
+.b-about .b-payment {
   margin-top: 310px;
   background: #003f84;
   border-radius: 0 6px 6px 0;
   position: absolute;
 }
 
-.b-about .b-about__payment img {
+.b-payment img {
   margin-top: 17px;
   margin-left: 12px;
   margin-right: 16px;
 }
 
-.b-about .b-about__payment p {
+.b-payment p {
   transform: rotate(180deg);
   writing-mode: tb-rl;
   color: #ffffff;
@@ -239,48 +274,13 @@ body {
   margin-bottom: 22px;
 }
 
-.b-about .b-about__title {
-  padding-top: 240px;
-  height: 370px;
-  width: 389px;
-}
-
-.b-about .b-about__title h1 {
-  margin-top: 0px;
-  margin-bottom: 51px;
-  color: white;
-}
-
-.b-about .b-about__title li {
-  margin-left: -20px;
-  margin-top: 25px;
-  color: white;
-}
-
-.b-about .b-about__male {
-  position: absolute;
-  top: 213px;
-  left: 593px;
-}
-
-.b-about .b-about__female {
-  position: absolute;
-  top: 288px;
-  left: 923px;
-}
-
-.b-about__container {
-  max-width: 1280px;
-  margin: 0px auto;
-}
-
 /* ************************УСЛУГИ************************ */
 
 .b-services {
   margin-top: 0px;
 }
 
-.b-services .b-services__title {
+.b-services .services__title {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-size: 46px;
@@ -289,18 +289,18 @@ body {
   color: #000000;
 }
 
-.b-services .b-services__cards {
+.b-services .services__cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.b-services__card {
+.b-services .services__card {
   margin-bottom: 48px;
 }
 
-.b-services .b-services__content {
+.b-services .services__content {
   width: 314px;
   height: 44px;
   margin-left: 49px;
@@ -309,17 +309,17 @@ body {
   z-index: 2;
 }
 
-.b-services .b-services__card-back {
+.b-services .services__card-back {
   position: absolute;
   z-index: 1;
 }
 
-.b-services .b-services__content {
+.b-services .services__content {
   width: 198px;
   height: 142px;
 }
 
-.b-services .b-services__content p {
+.b-services .services__content p {
   position: absolute;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -348,7 +348,7 @@ body {
   border-right: 3px solid #53b0ff;
 }
 
-.b-services__container {
+.b-services .services__container {
   max-width: 1280px;
   margin: 0px auto;
 }
@@ -359,7 +359,7 @@ body {
   margin-top: -45px;
 }
 
-.b-reviews .b-reviews__title {
+.b-reviews .reviews__title {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -369,14 +369,14 @@ body {
   color: #000000;
 }
 
-.b-reviews .b-reviews__cards {
+.b-reviews .reviews__cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.b-reviews .b-reviews__card {
+.b-reviews .reviews__card {
   background: #ffffff;
   border: 1px solid #cdd1d8;
   box-sizing: border-box;
@@ -388,12 +388,12 @@ body {
   margin-bottom: 40px;
 }
 
-.b-reviews .b-reviews__title-card img {
+.b-reviews .reviews__title-card img {
   float: left;
   margin-right: 20px;
 }
 
-.b-reviews .b-reviews__date-card {
+.b-reviews .reviews__date-card {
   font-family: Manrope, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -401,7 +401,7 @@ body {
   color: #828282;
 }
 
-.b-reviews .b-reviews__name-card {
+.b-reviews .reviews__name-card {
   margin-top: 19px;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -410,7 +410,7 @@ body {
   color: #1277d3;
 }
 
-.b-reviews .b-reviews__case-card {
+.b-reviews .reviews__case-card {
   margin-top: 8px;
   font-family: Manrope, sans-serif;
   font-style: normal;
@@ -419,7 +419,7 @@ body {
   color: #000000;
 }
 
-.b-reviews .b-reviews__description-card {
+.b-reviews .reviews__description-card {
   margin-top: 40px;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -429,27 +429,27 @@ body {
   color: #000000;
 }
 
-.b-reviews .b-reviews__description-next {
+.b-reviews .reviews__description-next {
   color: #1277d3;
 }
 
-.b-reviews .b-reviews__description-next:hover {
+.b-reviews .reviews__description-next:hover {
   text-decoration: underline;
   cursor: pointer;
   user-select: none;
 }
 
-.b-reviews .b-reviews__document-card {
+.b-reviews .reviews__document-card {
   margin-top: 45px;
   display: flex;
   align-items: center;
 }
 
-.b-reviews .b-reviews__document-card img {
+.b-reviews .reviews__document-card img {
   margin-right: 10px;
 }
 
-.b-reviews .b-reviews__look-document {
+.b-reviews .reviews__look-document {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -459,13 +459,13 @@ body {
   color: #1277d3;
 }
 
-.b-reviews .b-reviews__look-document:hover {
+.b-reviews .reviews__look-document:hover {
   color: #003f84;
   cursor: pointer;
   user-select: none;
 }
 
-.b-reviews__container {
+.reviews__container {
   max-width: 1280px;
   margin: 0px auto;
 }
