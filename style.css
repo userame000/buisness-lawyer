@@ -61,7 +61,6 @@ body {
     list-style-type: none;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
-
     font-weight: 600;
     font-size: 16px;
     color: #ffffff;
@@ -897,7 +896,7 @@ body {
     background-color: transparent;
     margin-right: 20px;
 }
-.b-footer .footer__messenger-item:hover{
+.b-footer .footer__messenger-item:hover {
     background-color: #53b0ff;
 }
 .b-footer .footer__messenger-item a {
@@ -971,7 +970,7 @@ body {
 }
 .b-footer .footer__call span {
     margin-top: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-transform: none;
     margin-left: 32px;
     font-style: normal;
@@ -1012,6 +1011,5 @@ body {
     color: #424242;
 }
 
-@media  (max-width: 1280px) {
-
+@media (max-width: 1280px) {
 }
