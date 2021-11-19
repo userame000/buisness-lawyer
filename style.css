@@ -699,11 +699,11 @@ body {
     box-sizing: border-box;
     border-radius: 4px;
     padding-left: 41px;
-    padding-top: 46px;
+    padding-top: 27px;
     margin-bottom: 40px;
 }
 .b-examples .examples__card-title {
-    margin-bottom: 0px;
+    margin-bottom: 0;
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-weight: 500;
