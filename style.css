@@ -897,6 +897,9 @@ body {
     background-color: transparent;
     margin-right: 20px;
 }
+.b-footer .footer__messenger-item:hover{
+    background-color: #53b0ff;
+}
 .b-footer .footer__messenger-item a {
     height: 23px;
     font-family: "Montserrat", sans-serif;
