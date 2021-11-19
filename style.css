@@ -61,6 +61,7 @@ body {
     list-style-type: none;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
+
     font-weight: 600;
     font-size: 16px;
     color: #ffffff;
@@ -583,7 +584,7 @@ body {
     height: 484px;
 }
 .b-application .application__container {
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
     display: flex;
 }
@@ -674,7 +675,7 @@ body {
     margin-top: 105px;
 }
 .b-examples .examples__container {
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 .b-examples .examples__title {
@@ -755,7 +756,7 @@ body {
 }
 .b-mission .mission__container {
     border-radius: 6px;
-    width: 1278px;
+    max-width: 1280px;
     height: 403px;
     margin: 0 auto;
     background-image: url("./img/mission.back.jpg");
@@ -910,7 +911,7 @@ body {
     margin-right: 7px;
 }
 .b-footer .footer__container {
-    width: 1280px;
+    max-width: 1280px;
     margin: 52px auto;
     display: flex;
     justify-content: space-between;
@@ -1006,4 +1007,8 @@ body {
     font-size: 15px;
     line-height: 40px;
     color: #424242;
+}
+
+@media  (max-width: 1280px) {
+
 }
