@@ -1,0 +1,135 @@
+@import "./style.css" screen;
+
+@media only screen and (max-width: 1280px) and (min-width: 768px) {
+    /* **************************************** */
+    .b-header {
+        position: absolute;
+    }
+
+    .b-header .header__container {
+        width: 709px;
+        max-width: 100%;
+    }
+    .b-header .b-menu {
+        display: none;
+    }
+
+    /* **************************************** */
+
+    .b-about {
+        height: 565px;
+    }
+    .b-about .about__payment {
+        display: none;
+    }
+    .b-about .about__container {
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+    }
+    .b-about .about__description {
+        width: 735px;
+        margin: 0 auto;
+    }
+    .b-about .about__title {
+        padding-top: 138px;
+    }
+    .b-about .about__male {
+        position: absolute;
+        width: 374px;
+        height: 439px;
+        top: 126px;
+        left: 258px;
+    }
+    .b-about .about__female {
+        position: absolute;
+        width: 297px;
+        height: 383px;
+        top: 182px;
+        left: 502px;
+    }
+
+    /* ***************************************** */
+
+    .b-feedback {
+        position: static;
+        width: 100%;
+        background-image: url("../img/mob-fon.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 443px;
+        box-shadow: none;
+        border: none;
+        border-radius: 0px;
+        padding-top: 0;
+        overflow: hidden;
+    }
+    .b-feedback .feedback__container {
+        width: 416px;
+        margin: 0 auto;
+    }
+    .b-feedback .feedback__container h1 {
+        letter-spacing: 1px;
+        margin-top: 0;
+        padding-top: 46px;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        text-align: center;
+        color: #ffffff;
+    }
+    .b-feedback .feedback__container input,
+    .b-feedback .feedback__container textarea,
+    .b-feedback .feedback__container button {
+        width: 100%;
+    }
+
+    /* ***************************************** */
+
+    .b-services {
+    }
+
+    /* ***************************************** */
+
+    .b-reviews {
+        display: none;
+    }
+
+    /* ***************************************** */
+
+    .b-mass-media {
+        display: none;
+    }
+
+    /* ****************************************** */
+
+    .b-application {
+        display: none;
+    }
+
+    /* ******************************************* */
+
+    .b-examples {
+        display: none;
+    }
+
+    /* ********************************************* */
+
+    .b-mission {
+        display: none;
+    }
+
+    /* ********************************************** */
+
+    .b-adress {
+        display: none;
+    }
+
+    /* *********************************************** */
+
+    .b-footer {
+        display: none;
+    }
+}

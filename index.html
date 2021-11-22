@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="./css/adaptive.css" />
         <title>Document</title>
     </head>
 
@@ -42,6 +42,38 @@
                 </div>
             </div>
         </div>
+
+        <div class="b-about">
+            <div class="about__payment">
+                <img src="./img/rouble.png" alt="" />
+                <p>Онлайн оплата</p>
+            </div>
+            <div class="about__container">
+                <div class="about__description">
+                    <div class="about__title">
+                        <h1>
+                            Спишем долги <br />
+                            или выплатим <br />
+                            их за вас
+                        </h1>
+                        <ul>
+                            <li class="about__item">
+                                Банкротство физических лиц
+                            </li>
+                            <li class="about__item">
+                                Гарантия списания в договоре
+                            </li>
+                            <li class="about__item">
+                                Списание кредитов и иных долгов
+                            </li>
+                            <li class="about__item">Работаем по всей России</li>
+                        </ul>
+                    </div>
+                    <img class="about__male" src="./img/male.png" alt="" />
+                    <img class="about__female" src="./img/female.png" alt="" />
+                </div>
+            </div>
+        </div>
         <div class="b-feedback">
             <div class="feedback__container">
                 <h1>Экспресс консультация юриста</h1>
@@ -62,45 +94,6 @@
                 </p>
             </div>
         </div>
-        <div class="b-about">
-            <div class="about__payment">
-                <img src="./img/rouble.png" alt="" />
-                <p>Онлайн оплата</p>
-            </div>
-            <div class="about__container">
-                <div class="about__description">
-                    <div class="about__title">
-                        <h1>
-                            Спишем долги <br />
-                            или выплатим <br />
-                            их за вас
-                        </h1>
-                        <ul>
-                            <li class="b-about__item">
-                                Банкротство физических лиц
-                            </li>
-                            <li class="b-about__item">
-                                Гарантия списания в договоре
-                            </li>
-                            <li class="b-about__item">
-                                Списание кредитов и иных долгов
-                            </li>
-                            <li class="b-about__item">
-                                Работаем по всей России
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="about__image">
-                        <img class="about__male" src="./img/male.png" alt="" />
-                        <img
-                            class="about__female"
-                            src="./img/female.png"
-                            alt=""
-                        />
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="b-services">
             <div class="services__container">
                 <div class="services__title">
@@ -108,36 +101,38 @@
                 </div>
                 <div class="services__cards">
                     <div class="services__card">
+                        <div class="services__arrow"></div>
                         <div class="services__content">
                             <img src="./img/card-1.png" alt="" />
                             <p>Банкротство физических лиц</p>
                         </div>
-                        <div class="g-services__arrow"></div>
                         <div class="services__back">
                             <img src="./img/back-card-1.png" alt="" />
                         </div>
                     </div>
                     <div class="services__card">
+                        <div class="services__arrow"></div>
                         <div class="services__content">
                             <img src="./img/card-2.png" alt="" />
                             <p>Банкротство юридических лиц</p>
                         </div>
-                        <div class="g-services__arrow"></div>
                         <div class="services__back">
                             <img src="./img/back-card-2.png" alt="" />
                         </div>
                     </div>
                     <div class="services__card">
+                        <div class="services__arrow"></div>
                         <div class="services__content">
                             <img src="./img/card-3.png" alt="" />
                             <p>Защита от коллекторов</p>
                         </div>
-                        <div class="g-services__arrow"></div>
+
                         <div class="services__back">
                             <img src="./img/back_card-3.png" alt="" />
                         </div>
                     </div>
                     <div class="services__card">
+                        <div class="services__arrow"></div>
                         <div class="services__content">
                             <img src="./img/card-4.png" alt="" />
                             <p>
@@ -145,12 +140,12 @@
                                 споры
                             </p>
                         </div>
-                        <div class="g-services__arrow"></div>
                         <div class="services__back">
                             <img src="./img/back-card-4.png" alt="" />
                         </div>
                     </div>
                     <div class="services__card">
+                        <div class="services__arrow"></div>
                         <div class="services__content">
                             <img src="./img/card-5.png" alt="" />
                             <p>
@@ -158,12 +153,12 @@
                                 споры
                             </p>
                         </div>
-                        <div class="g-services__arrow"></div>
                         <div class="services__back">
                             <img src="./img/back-card-5.png" alt="" />
                         </div>
                     </div>
                     <div class="services__card">
+                        <div class="services__arrow"></div>
                         <div class="services__content">
                             <img src="./img/card-6.png" alt="" />
                             <p>
@@ -171,7 +166,6 @@
                                 защита
                             </p>
                         </div>
-                        <div class="g-services__arrow"></div>
                         <div class="services__back">
                             <img src="./img/back-card-6.png" alt="" />
                         </div>
@@ -584,9 +578,11 @@
         </div>
         <div class="b-adress">
             <div class="adress__title">Наши офисы в Москве</div>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.841096472935!2d37.64996894946056!3d55.74388988579871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54aef06ca7fb1%3A0xaf95e43d11618715!2z0KLQtdGC0LXRgNC40L3RgdC60LjQuSDQv9C10YAuLCAxMmMxLCDQnNC-0YHQutCy0LAsIDEwOTAwNA!5e0!3m2!1sru!2sru!4v1637305535585!5m2!1sru!2sru"
-            ></iframe>
+            <div class="adress__map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.841096472935!2d37.64996894946056!3d55.74388988579871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54aef06ca7fb1%3A0xaf95e43d11618715!2z0KLQtdGC0LXRgNC40L3RgdC60LjQuSDQv9C10YAuLCAxMmMxLCDQnNC-0YHQutCy0LAsIDEwOTAwNA!5e0!3m2!1sru!2sru!4v1637305535585!5m2!1sru!2sru"
+                ></iframe>
+            </div>
         </div>
         <div class="b-footer">
             <div class="footer__feedback">
@@ -640,7 +636,7 @@
                         />
                     </div>
                 </div>
-                <div class="b-menu b-menu__column">
+                <div class="b-menu b-menu--column">
                     <ul class="menu__elem1">
                         <li>
                             <a href="/" class="menu__item"
