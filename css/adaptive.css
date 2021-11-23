@@ -1,5 +1,3 @@
-@import "./style.css" screen;
-
 @media only screen and (max-width: 1280px) and (min-width: 768px) {
     /* **************************************** */
     .b-header {
@@ -35,6 +33,12 @@
     .b-header .header__burger span::after {
         content: "";
         top: 8px;
+    }
+
+    .b-header .header__contacts{
+        position: absolute;
+        top: 45px;
+        right: 3%;
     }
     /* **************************************** */
 
