@@ -152,7 +152,7 @@
     .b-reviews .reviews__container {
         width: 92%;
     }
-    .b-reviews .reviews__title {
+    .b-reviews .reviews__title p{
         font-family: "Montserrat", sans-serif;
         font-style: normal;
         font-weight: 500;

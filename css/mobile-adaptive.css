@@ -1,0 +1,362 @@
+@media only screen and (max-width: 768px) and (min-width: 340px) {
+    /* --------------------------------------------------------- */
+    .b-header .header__burger span,
+    .b-header .header__burger span::before,
+    .b-header .header__burger span::after {
+        top: 30px;
+        display: block;
+        position: absolute;
+        width: 26px;
+        height: 2px;
+        background-color: #ffffff;
+    }
+    .b-header .header__burger span::before {
+        content: "";
+        top: -8px;
+    }
+    .b-header .header__burger span::after {
+        content: "";
+        top: 8px;
+    }
+    .b-header {
+        padding-top: 0;
+        width: 100%;
+        background-color: #125395;
+        height: 55px;
+    }
+    .b-header .header__container {
+        width: 88%;
+    }
+    .b-header .header__logo {
+        position: absolute;
+        top: 63px;
+        width: 154px;
+        height: 61px;
+    }
+    .b-header .b-menu {
+        display: none;
+    }
+    .b-header .header__contacts {
+        display: block;
+        top: -4px;
+        width: 149px;
+        position: absolute;
+        right: 3%;
+    }
+    .b-header .header__data {
+        position: absolute;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 36px;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    .b-header .header__data img {
+        width: 23px;
+        height: 23px;
+    }
+    .b-select-city {
+        width: 10%;
+        position: absolute;
+        top: 58px;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 36px;
+        color: #ffffff;
+    }
+    .b-select-city .select-city__arrow {
+        margin-left: 46px;
+    }
+    /* --------------------------------------------------------- */
+
+    .b-about {
+        height: 450px;
+    }
+    .b-about .about__container {
+        width: 88%;
+    }
+    .b-about .about__payment {
+        display: none;
+    }
+    .b-about .about__title {
+        width: 80%;
+        padding-top: 130px;
+        margin: auto;
+    }
+    .b-about .about__title p {
+        height: 44px;
+        margin-top: 0;
+        font-size: 24px;
+        text-align: center;
+        line-height: 30px;
+    }
+    .b-about .about__title ul {
+        display: none;
+    }
+    .b-about .about__male {
+        width: 213px;
+        height: 250px;
+        left: 0;
+        top: 200px;
+    }
+    .b-about .about__female {
+        width: 170px;
+        height: 217px;
+        left: 138px;
+        top: 233px;
+    }
+    /* --------------------------------------------------------- */
+
+    .b-feedback {
+        position: static;
+        width: 100%;
+        background-image: url("../img/mob-fon.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 425px;
+        box-shadow: none;
+        border: none;
+        border-radius: 0px;
+        padding: 0;
+        overflow: hidden;
+    }
+    .b-feedback .feedback__container {
+        width: 88%;
+        margin: 0 auto;
+    }
+    .b-feedback .feedback__container h1 {
+        letter-spacing: 1px;
+        margin-top: 0;
+        padding-top: 46px;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        text-align: center;
+        color: #ffffff;
+    }
+    .b-feedback .feedback__container input,
+    .b-feedback .feedback__container textarea,
+    .b-feedback .feedback__container button {
+        width: 100%;
+    }
+
+    /* --------------------------------------------------------- */
+
+    .b-services {
+        width: 100%;
+    }
+    .b-services .services__title p {
+        margin-top: 19px;
+        margin-bottom: 0;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 85px;
+        text-align: center;
+        color: #000000;
+    }
+    .b-services .services__container {
+        width: 92%;
+    }
+    .b-services .services__card {
+        width: 100%;
+        margin-bottom: 19px;
+    }
+    .b-services .services__back img {
+        width: 100%;
+        height: 186px;
+    }
+    .b-services .services__content img {
+        height: 64px;
+        width: 64px;
+    }
+    .b-services .services__content p {
+        margin-top: 11px;
+    }
+    .b-services .services__content {
+        margin-top: 20px;
+        margin-left: 31px;
+        width: 80%;
+    }
+    .b-services .services__arrow {
+        margin-top: 110px;
+        margin-left: 80%;
+    }
+
+    /* --------------------------------------------------------- */
+
+    .b-reviews {
+        width: 100%;
+    }
+    .b-reviews .reviews__container {
+        width: 92%;
+    }
+    .b-reviews .reviews__title p {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        margin-top: 40px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 85px;
+        text-align: center;
+        margin-bottom: 0;
+        color: #000000;
+    }
+    .b-reviews .reviews__card {
+        padding-right: 27px;
+        padding-left: 27px;
+        margin-bottom: 26px;
+        width: 100%;
+        height: auto;
+    }
+    .b-reviews .reviews__description-card {
+        margin-top: 26px;
+    }
+    .b-reviews .reviews__document-card {
+        margin-top: 22px;
+        margin-bottom: 36px;
+        width: 80%;
+    }
+    .b-reviews .reviews__look-document {
+        line-height: 17px;
+    }
+    .b-reviews .reviews__card--invisible {
+        display: none;
+    }
+    /* --------------------------------------------------------- */
+    .b-button {
+        margin-bottom: 49px;
+    }
+    /* --------------------------------------------------------- */
+    .b-video-box {
+        width: 92%;
+        margin: 0 auto;
+    }
+    .b-video-box .video-box__container {
+        font-size: 0;
+    }
+    .b-video-box .video-box__player--invisible {
+        display: none;
+        margin-left: 41%;
+    }
+    .b-video-box .video-box__arrow-left {
+        margin-top: 193px;
+        margin-left: 35%;
+    }
+    .b-video-box .video-box__arrow-right {
+        margin-top: 193px;
+        margin-left: 50%;
+    }
+    .b-video-box .video-box__container iframe {
+        width: 100%;
+        height: 163px;
+    }
+
+    /* --------------------------------------------------------- */
+
+    .b-mass-media {
+        margin-top: 100px;
+    }
+    .b-mass-media .mass-media__title {
+        margin-bottom: 18px;
+    }
+
+    /* --------------------------------------------------------- */
+
+    .b-application {
+        width: 100%;
+        height: 425px;
+    }
+    .b-application .application__image {
+        display: none;
+    }
+    .b-application .application__container {
+        width: 92%;
+        display: block;
+    }
+    .b-application .application__description {
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+    .b-application .application__description p {
+        position: absolute;
+        margin-top: 225px;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 17px;
+        color: #ffffff;
+        opacity: 1;
+        width: 92%;
+    }
+    .b-application .application__feedback {
+        display: flex;
+        flex-direction: column;
+        margin-top: 59px;
+    }
+    .b-application .application__description-title {
+        margin-top: 44px;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        color: #ffffff;
+    }
+    /* ------------------------------------------------------- */
+    .b-call input {
+        width: 300px;
+    }
+    .b-call {
+        display: block;
+        margin-top: 15px;
+        height: 171px;
+        width: 100%;
+        margin: 28px auto 0 auto;
+    }
+    .b-call input {
+        width: 100%;
+    }
+    .b-call button {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    /* --------------------------------------------------------- */
+
+    .b-examples {
+        display: none;
+    }
+
+    /* --------------------------------------------------------- */
+
+    .b-mission {
+        display: none;
+    }
+
+    /* --------------------------------------------------------- */
+
+    .b-adress {
+        display: none;
+    }
+
+    /* --------------------------------------------------------- */
+
+    .b-footer {
+        display: none;
+    }
+
+    /* --------------------------------------------------------- */
+}
