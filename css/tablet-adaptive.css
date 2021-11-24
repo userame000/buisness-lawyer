@@ -284,7 +284,7 @@
     .b-examples {
         margin-top: 52px;
     }
-    .b-examples__container {
+    .examples__container {
         width: 92%;
     }
     .b-examples .examples__title {
@@ -308,6 +308,7 @@
     .b-mission {
         margin-top: 86px;
         margin-bottom: 0;
+        width: 100%;
     }
     .b-mission .mission__container {
         max-width: 100%;
@@ -379,6 +380,7 @@
     .b-menu--column .menu__elem2 {
         display: none;
     }
+
     .b-menu--column .menu__elem3 {
         margin: auto;
     }
