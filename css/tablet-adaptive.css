@@ -205,7 +205,7 @@
     .b-video-box .video-box__arrow-right {
         margin-left: 86%;
     }
-    .b-video-box .video-box__container iframe {
+    .b-video-box .video-box__slide iframe {
         width: 572px;
         height: 312px;
     }
@@ -279,7 +279,7 @@
         margin-right: auto;
         width: 50%;
     }
-    /* ******************************************* */
+    /* ------------------------------------------------ */
 
     .b-examples {
         margin-top: 52px;
@@ -303,7 +303,7 @@
         width: 48%;
         margin-bottom: 26px;
     }
-    /* ********************************************* */
+    /* ------------------------------------------------ */
 
     .b-mission {
         margin-top: 86px;
@@ -337,7 +337,7 @@
         margin-top: 10px;
         margin-left: 0;
     }
-    /* ********************************************** */
+    /* ------------------------------------------------ */
 
     .b-adrees .adress__title {
         font-family: "Montserrat", sans-serif;
@@ -348,7 +348,7 @@
         color: #000000;
     }
 
-    /* *********************************************** */
+    /* ------------------------------------------------ */
 
     .b-footer {
         width: 100%;
