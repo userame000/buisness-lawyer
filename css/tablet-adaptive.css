@@ -205,7 +205,32 @@
         width: 572px;
         height: 312px;
     }
-
+    /* ------------------------------------------------- */
+    .b-video-box--owl {
+        position: relative;
+        overflow: visible;
+        width: 100%;
+    }
+    .b-video-box--owl .video-box__wrapper {
+        margin: 0 auto;
+    }
+    .owl-carousel .owl-stage-outer {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .b-video-box--owl .video-box__arrow-left,
+    .b-video-box--owl .video-box__arrow-right {
+        top: 5px;
+    }
+    .b-video-box--owl .video-box__arrow-left {
+        position: absolute;
+        left: 0;
+    }
+    .b-video-box--owl .video-box__arrow-right {
+        position: absolute;
+        right: 0;
+    }
+    
     /* ***************************************** */
 
     .b-mass-media {
