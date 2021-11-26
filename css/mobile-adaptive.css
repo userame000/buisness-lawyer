@@ -240,7 +240,7 @@
         margin: 0 auto;
     }
     .b-video-box .video-box__slide {
-        font-size: 0;
+        width: 100%;
     }
     .b-video-box .video-box__arrow-left {
         margin-top: 193px;
@@ -248,6 +248,7 @@
     }
     .b-video-box .video-box__arrow-right {
         margin-top: 193px;
+        left: auto;
         right: 35%;
     }
     .b-video-box .video-box__slide iframe {

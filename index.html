@@ -7,14 +7,16 @@
         <link rel="stylesheet" href="./css/style.css" />
         <link rel="stylesheet" href="./css/tablet-adaptive.css" />
         <link rel="stylesheet" href="./css/mobile-adaptive.css" />
-        <script src="./js/modules/jquery-3.6.0.min.js"></script>
+
+        <link rel="stylesheet" href="./js/modules/owl.carousel.min.css" />
+        <link rel="stylesheet" href="/js/modules/owl.theme.default.min.css" />
         <link
             rel="stylesheet"
             href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
         />
-        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
         <link rel="stylesheet" href="style.css" />
-        <script type="module" src="./js/swiper.js"></script>
+
         <title>Document</title>
     </head>
 
@@ -22,20 +24,12 @@
         <div class="b-header">
             <div class="header__container">
                 <div class="header__row">
-                    <div class="header__burger"><span></span></div>
+                    <div class="header__burger">
+                        <div class="header__line"></div>
+                        <div class="header__line"></div>
+                        <div class="header__line"></div>
+                    </div>
                     <img class="header__logo" src="./img/logo.svg" alt="" />
-                    <nav class="b-menu">
-                        <ul>
-                            <li>
-                                <a href="#" class="menu__item">Услуги </a>
-                                <a href="#" class="menu__item">О нас</a>
-                                <a href="#" class="menu__item"
-                                    >Отзывы и практика</a
-                                >
-                                <a href="#" class="menu__item">Контакты</a>
-                            </li>
-                        </ul>
-                    </nav>
                     <div class="header__contacts">
                         <div class="header__data">
                             <img src="./img/call-item.png" alt="" />
@@ -52,7 +46,16 @@
                 </div>
             </div>
         </div>
-
+        <nav class="b-menu">
+            <ul>
+                <li>
+                    <a href="#" class="menu__item">Услуги </a>
+                    <a href="#" class="menu__item">О нас</a>
+                    <a href="#" class="menu__item">Отзывы и практика</a>
+                    <a href="#" class="menu__item">Контакты</a>
+                </li>
+            </ul>
+        </nav>
         <div class="b-about">
             <div class="about__payment">
                 <img src="./img/rouble.png" alt="" />
@@ -428,12 +431,9 @@
         </div>
         <div class="b-mass-media">
             <div class="mass-media__title">СМИ о нас</div>
-
-            <div class="b-video-box swiper-container">
-                <div class="video-box__arrow-left"></div>
-                <div class="video-box__arrow-right"></div>
-                <div class="video-box__wrapper swiper-wrapper">
-                    <div class="video-box__slide swiper-slide">
+            <div class="b-video-box b-video-box--owl">
+                <div class="video-box__wrapper owl-carousel">
+                    <div class="video-box__slide item-video">
                         <iframe
                             class="video-box__player"
                             src="https://www.youtube.com/embed/VRpcN7SbSJ0"
@@ -444,17 +444,7 @@
                         ></iframe>
                     </div>
 
-                    <div class="video-box__slide swiper-slide">
-                        <iframe
-                            class="video-box__player"
-                            src="https://www.youtube.com/embed/ddbxsrGPRY0"
-                            title="YouTube video player"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
-                        ></iframe>
-                    </div>
-                    <div class="video-box__slide swiper-slide">
+                    <div class="video-box__slide item-video">
                         <iframe
                             class="video-box__player"
                             src="https://www.youtube.com/embed/VRpcN7SbSJ0"
@@ -464,7 +454,17 @@
                             allowfullscreen
                         ></iframe>
                     </div>
-                    <div class="video-box__slide swiper-slide">
+                    <div class="video-box__slide item-video">
+                        <iframe
+                            class="video-box__player"
+                            src="https://www.youtube.com/embed/VRpcN7SbSJ0"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                    <div class="video-box__slide item-video">
                         <iframe
                             class="video-box__player"
                             src="https://www.youtube.com/embed/VRpcN7SbSJ0"
@@ -734,5 +734,12 @@
                 </div>
             </div>
         </div>
+
+        <script src="./js/modules/jquery-3.6.0.min.js"></script>
+        <script src="./js/modules/owl.carousel.min.js"></script>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="./js/owl.js"></script>
+        <script type="module" src="./js/swiper.js"></script>
+        <script src="./js/burger.js"></script>
     </body>
 </html>

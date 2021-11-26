@@ -8,7 +8,7 @@
         width: 92%;
         max-width: 100%;
     }
-    .b-header .b-menu {
+    .b-menu {
         display: none;
     }
     .b-header .header__logo {
@@ -16,31 +16,27 @@
         top: 12px;
         left: 100px;
     }
-    .b-header .header__burger span,
-    .b-header .header__burger span::before,
-    .b-header .header__burger span::after {
-        top: 51px;
-        display: block;
-        position: absolute;
-        width: 26px;
-        height: 2px;
-        background-color: #ffffff;
-    }
-    .b-header .header__burger span::before {
-        content: "";
-        top: -8px;
-    }
-    .b-header .header__burger span::after {
-        content: "";
-        top: 8px;
-    }
-
-    .b-header .header__contacts{
+    .b-header .header__contacts {
         position: absolute;
         top: 45px;
-        right: 3%;
+        width: 420px;
+        left: auto;
+        right: 20px;
     }
-    /* **************************************** */
+    .b-header .b-header__data, .b-select-city{
+        font-size: 18px;
+    }
+    .b-header .header__burger{
+        display: block;
+    }
+    /* ---------------------------------------- */
+     .--visible{
+        display: block;
+    }
+    .b-video-box--owl .video-box__slide{
+        width: 100%;
+      }
+    /* ---------------------------------------- */
 
     .b-about {
         height: 565px;
@@ -152,7 +148,7 @@
     .b-reviews .reviews__container {
         width: 92%;
     }
-    .b-reviews .reviews__title p{
+    .b-reviews .reviews__title p {
         font-family: "Montserrat", sans-serif;
         font-style: normal;
         font-weight: 500;
