@@ -6,12 +6,12 @@ var swiper = new Swiper(".swiper-container", {
     },
     mousewheelControl: false,
     simulateTouch: false,
-    slidesPerView:3,
+    slidesPerView: 3,
     observer: true,
     observeParents: true,
     breakpoints:{
         340: {
-            slidesPerView:1
+            slidesPerView:1,     
         },
         1280: {
             slidesPerView:1

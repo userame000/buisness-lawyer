@@ -61,7 +61,7 @@
         display: none;
         cursor: pointer;
         position: relative;
-        z-index: 99999999;
+        z-index: 9999;
         width: 26px;
         height: 18px;
         top: 11px;
@@ -538,6 +538,7 @@
         margin: 70px auto;
         overflow: hidden;
         width: 100%;
+        
     }
     .b-video-box .video-box__arrow-left,
     .b-video-box .video-box__arrow-right {
