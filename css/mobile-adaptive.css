@@ -261,9 +261,30 @@
 		right: 35%;
 	}
 	.b-video-box .video-box__slide iframe {
-		width: 300px;
+		width: 100%;
 		height: 163px;
 	}
+
+	/* --------------------------------------------------------- */
+		.b-video-box--owl {
+			width: 92%;
+			margin: 0 auto;
+		}
+		.b-video-box--owl .video-box__arrow-left {
+			top: auto;
+			margin-top: 0;		
+			left: 35%;
+		}
+		.b-video-box--owl .video-box__arrow-right {
+			top: auto;
+			margin-top: 0;
+			left: auto;
+			right: 35%;
+		}
+		.b-video-box--owl .video-box__slide iframe {
+			width: 100%;
+			height: 163px;
+		}
 
 	/* --------------------------------------------------------- */
 

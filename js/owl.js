@@ -10,7 +10,6 @@ $(function () {
         video: true,
         lazyLoad: true,
         center: true,
-        marge: true,
         responsive: {
             340: {
                 items: 1,
