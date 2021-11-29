@@ -231,10 +231,6 @@
 		.b-video-box--owl .video-box__wrapper {
 			position: static;
 		}
-		.owl-carousel .owl-stage-outer {
-			width: 100%;
-			margin: 0 auto;
-		}
 		.b-video-box--owl .video-box__arrow-left,
 		.b-video-box--owl .video-box__arrow-right {
 			top: 3515px;
@@ -245,6 +241,12 @@
 		.b-video-box--owl .video-box__slide iframe{
 			width: 100%;
 		}
+	/* ----------------------------------------------- */
+
+	.owl-carousel .owl-stage-outer {
+		width: 100%;
+		margin: 0 auto;
+	}
 
 	/* ----------------------------------------------- */
 
@@ -361,6 +363,7 @@
 		margin-top: 10px;
 		margin-left: 0;
 	}
+	
 	/* ------------------------------------------------ */
 
 	.b-adrees .adress__title {
