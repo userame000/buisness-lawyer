@@ -241,6 +241,7 @@
 		.b-video-box--owl .video-box__slide iframe{
 			width: 100%;
 		}
+		
 	/* ----------------------------------------------- */
 
 	.owl-carousel .owl-stage-outer {
@@ -363,7 +364,7 @@
 		margin-top: 10px;
 		margin-left: 0;
 	}
-	
+
 	/* ------------------------------------------------ */
 
 	.b-adrees .adress__title {

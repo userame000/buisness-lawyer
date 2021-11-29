@@ -266,6 +266,7 @@
 	}
 
 	/* --------------------------------------------------------- */
+
 		.b-video-box--owl {
 			width: 92%;
 			margin: 0 auto;
@@ -455,13 +456,13 @@
 	.b-adress iframe {
 		height: 392px;
 	}
+	
 	/* --------------------------------------------------------- */
 
 	.b-footer {
 		width: 100%;
 		margin-bottom: 40px;
 	}
-
 	.b-footer .footer__feedback {
 		width: 100%;
 		height: auto;
