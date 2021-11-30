@@ -1,6 +1,6 @@
     @font-face {
         font-family: "Montserrat";
-        src: url("/fonts/Montserrat.woff") format("woff");
+        src: url("../fonts/Montserrat.woff") format("woff");
         font-style: normal;
         font-weight: 500;
     }
@@ -49,7 +49,8 @@
     }
     .b-header .header__container {
         max-width: 100%;
-        width: 1280px;
+        width: 1320px;
+        padding: 0 20px 0 20px;
         margin: 0 auto;
     }
     .b-header .header__burger {
@@ -303,19 +304,23 @@
         line-height: 40px;
         color: #ffffff;
     }
+    .b-about .about__description{
+        position: relative;
+    }
     .b-about .about__male {
         position: absolute;
         top: 213px;
-        left: 593px;
+        left: 272px;
     }
     .b-about .about__female {
         position: absolute;
         top: 288px;
-        left: 923px;
+        left: 606px;
     }
     .b-about .about__container {
         max-width: 100%;
-        width: 1280px;
+        width: 1320px;
+        padding: 0 20px 0 20px;
         margin: 0 auto;
     }
     .b-about .about__payment {
@@ -400,7 +405,8 @@
         transform: rotate(45deg);
     }
     .b-services .services__container {
-        max-width: 1280px;
+        max-width: 1320px;
+        padding: 0 20px 0 20px;
         margin: 0 auto;
     }
     .b-services .services__card:hover p{
@@ -510,7 +516,8 @@
         user-select: none;
     }
     .b-reviews .reviews__container {
-        max-width: 1280px;
+        max-width: 1320px;
+        padding: 0 20px 0 20px;
         margin: 0 auto;
     }
 
@@ -620,7 +627,8 @@
         height: 484px;
     }
     .b-application .application__container {
-        max-width: 1280px;
+        max-width: 1320px;
+        padding: 0 20px 0 20px;
         margin: 0 auto;
         display: flex;
     }
@@ -711,7 +719,8 @@
         margin-top: 105px;
     }
     .b-examples .examples__container {
-        max-width: 1280px;
+        max-width: 1320px;
+        padding: 0 20px 0 20px;
         margin: 0 auto;
     }
     .b-examples .examples__title {
@@ -796,7 +805,8 @@
     }
     .b-mission .mission__container {
         border-radius: 6px;
-        max-width: 1280px;
+        max-width: 1320px;
+        padding: 0 20px 0 20px;
         height: 403px;
         margin: 0 auto;
 
@@ -983,7 +993,8 @@
     }
     .b-footer .footer__container {
         max-width: 100%;
-        width: 1280px;
+        width: 1320px;
+        padding: 0 20px 0 20px;
         margin: 52px auto;
         display: flex;
         justify-content: space-between;
