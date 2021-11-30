@@ -1,5 +1,6 @@
 @media only screen and (max-width: 767px) and (min-width: 340px) {
 	/* --------------------------------------------------------- */
+
 	.b-header .header__burger span,
 	.b-header .header__burger span::before,
 	.b-header .header__burger span::after {
@@ -195,7 +196,7 @@
 	.b-services .services__content {
 		margin-top: 20px;
 		margin-left: 31px;
-		width: 80%;
+		width: 195px;
 	}
 	.b-services .services__arrow {
 		margin-top: 110px;
