@@ -12,7 +12,10 @@
     }
 
     /* -------------------------------------------------- */
-
+    .l-main{
+		overflow: hidden;
+		width: 100%;
+	}   
     .b-header {
         z-index: 1;
         padding-top: 20px;
