@@ -1,5 +1,5 @@
 @media only screen and (max-width: 1279px) and (min-width: 768px) {
-	/* **************************************** */
+	/* --------------------------------- */
 
 	.b-header {
 		position: absolute;
@@ -41,6 +41,7 @@
 	.b-menu {
 		display: none;
 	}
+
 	/* ----------------------------------------- */
 	
 		.b-menu--column .menu__elem1,
@@ -73,10 +74,19 @@
 	}
 	.b-about .about__description {
 		width: 709px;
+		position: relative;
 		margin: 0 auto;
 	}
 	.b-about .about__title {
 		padding-top: 138px;
+		z-index: 1;
+		position: absolute;
+	}
+	.b-about .about__title p{
+		font-size: 36px;
+		margin-bottom: 15px;
+		width: 312px;
+		line-height: 46px;
 	}
 	.b-about .about__male {
 		position: absolute;
@@ -84,15 +94,21 @@
 		height: 439px;
 		top: 126px;
 		left: auto;
-		right: 136px;
+		right: 114px;
 	}
 	.b-about .about__female {
 		position: absolute;
 		width: 297px;
 		height: 383px;
 		top: 182px;
-		left: auto;
-		right: -33px;
+		left: 465px;
+		right: auto;
+	}
+	.b-about .about__item{
+		margin-top: 0;
+		line-height:40px;
+		font-size: 16px;
+		font-weight: 600;
 	}
 
 	/* ------------------------------------------------ */

@@ -294,9 +294,10 @@
         line-height: 60px;
         color: #ffffff;
     }
-    .b-about .about__title li {
+    .b-about .about__item {
         margin-left: -20px;
-        margin-top: 25px;
+        margin-top: 0;
+        line-height: 40px;
         color: #ffffff;
     }
     .b-about .about__male {
@@ -357,10 +358,16 @@
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    .b-services .services__card {
-        cursor: pointer;
+    .b-services .services__card{
         user-select: none;
         margin-bottom: 48px;
+    }
+    .b-services .services__card:hover p{
+        text-decoration: underline;
+    }
+    .b-services .services__card:hover .services__arrow{     
+        border-top: 3px solid #53b0ff;
+        border-right: 3px solid #53b0ff;
     }
     .b-services .services__content {
         width: 198px;
@@ -375,7 +382,7 @@
         z-index: 1;
     }
     .b-services .services__content p {
-        margin-top: 0;
+        margin-top: 25px;
         position: absolute;
         font-family: "Montserrat", sans-serif;
         font-style: normal;
@@ -395,10 +402,6 @@
         margin-left: 300px;
         margin-right: 60px;
         transform: rotate(45deg);
-    }
-    .b-services .services__arrow:hover {
-        border-top: 3px solid #53b0ff;
-        border-right: 3px solid #53b0ff;
     }
     .b-services .services__container {
         max-width: 1280px;
@@ -783,16 +786,17 @@
 
     .b-mission {
         margin-top: 49px;
+        background-image: url("../img/mission.back.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .b-mission .mission__container {
         border-radius: 6px;
         max-width: 1280px;
         height: 403px;
         margin: 0 auto;
-        background-image: url("../img/mission.back.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+
     }
     .b-mission .mission__title {
         padding-top: 78px;
