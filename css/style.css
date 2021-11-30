@@ -362,13 +362,6 @@
         user-select: none;
         margin-bottom: 48px;
     }
-    .b-services .services__card:hover p{
-        text-decoration: underline;
-    }
-    .b-services .services__card:hover .services__arrow{     
-        border-top: 3px solid #53b0ff;
-        border-right: 3px solid #53b0ff;
-    }
     .b-services .services__content {
         width: 198px;
         height: 142px;
@@ -406,6 +399,13 @@
     .b-services .services__container {
         max-width: 1280px;
         margin: 0 auto;
+    }
+    .b-services .services__card:hover p{
+        text-decoration: underline;
+    }
+    .b-services .services__card:hover .services__arrow{     
+        border-top: 3px solid #53b0ff;
+        border-right: 3px solid #53b0ff;
     }
 
     /* -------------------------------------------------- */
