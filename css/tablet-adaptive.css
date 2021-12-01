@@ -153,11 +153,9 @@
 	}
 	/* ------------------------------------------------- */
 
-	.b-services .services__container {
-		width: 708px;
-	}
 	.b-services .services__card {
 		width: 47%;
+		position: relative;
 	}
 	.b-services .services__back img {
 		width: 100%;
@@ -173,18 +171,15 @@
 	.b-services .services__content {
 		margin-top: 27px;
 		margin-left: 47px;
-		width: 40%;
+		width: 100%;
 	}
 	.b-services .services__arrow {
 		margin-top: 110px;
-		margin-left: 242px;
+		left: auto;
+		right: 20px;
 	}
 
 	/* ------------------------------------------------------ */
-
-	.b-reviews .reviews__container {
-		width: 709px;
-	}
 	.b-reviews .reviews__title p {
 		font-family: "Montserrat", sans-serif;
 		font-style: normal;
@@ -222,62 +217,50 @@
 	/* ----------------------------------------- */
 
 	.b-video-box {
-		margin: 0 auto;
-		width:709px;
 		position: relative;
+		width: auto;
+		padding: 0 44px;
+		margin: 0 20px;
 	}
+	
 	.b-video-box .video-box__arrow-left,
 	.b-video-box .video-box__arrow-right {
-		margin-top: 150px;
+		top: 50%;
+		margin-top: 0;
 	}
 	.b-video-box .video-box__arrow-right {
 		left: auto;
-		right: 10px;
+		right: 20px;
+		margin-top: -15px;
 	}
 	.b-video-box .video-box__arrow-left{
 		right: auto;
-		left: 10px;
+		left: 20px;
+		margin-top: -15px;
 	}
-	.b-video-box .video-box__slide{
-		text-align: center	;
-	}
-	.b-video-box .video-box__slide iframe {
-		width: 572px;
-		height: 312px;
-		}
 
 	/* ------------------------------------------------- */
 
-		.b-video-box--owl {
-			overflow: visible;
-			width: 705px;
-		}
-		.b-video-box--owl .video-box__slide{
-			text-align: start;
-		}
 		.b-video-box--owl .video-box__wrapper {
 			position: relative;
 		}
 		.b-video-box--owl .video-box__arrow-left,
 		.b-video-box--owl .video-box__arrow-right {
-			top: 0;
+			bottom: 0;
 		}
 		.b-video-box--owl .video-box__arrow-left{
 			right: auto;
-			left: 0;
+			left: -25px;
 		}
 		.b-video-box--owl .video-box__arrow-right{
-			right: 0;
+			right: -25px;
 			left: auto;
 		}
 
 	/* ----------------------------------------------- */
 
-	.owl-carousel .owl-stage-outer {
-		width: 572px;
-		margin: 0 auto;
-	}
-	
+
+
 	/* ----------------------------------------------- */
 
 	.b-mass-media {
@@ -335,9 +318,6 @@
 
 	.b-examples {
 		margin-top: 52px;
-	}
-	.b-examples .examples__container {
-		width: 708px;
 	}
 	.b-examples .examples__title {
 		width: 447px;

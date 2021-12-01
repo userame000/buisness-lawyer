@@ -5,21 +5,23 @@ $(function () {
             '<div class="video-box__arrow-left"></div>',
             '<div class="video-box__arrow-right"></div>',
         ],
-        items: 1,
         loop: true,
         video: true,
         lazyLoad: true,
-        center: true,
+        margin: 30,
         responsive: {
-            340: {
+            320: {
                 items: 1,
+            },
+            980: {
+                items: 2,
+                margin: 44,
             },
             1280: {
-                items: 1,
-            },
-            1650: {
                 items: 3,
+                margin: 80,
             },
+
         },
     });
 });

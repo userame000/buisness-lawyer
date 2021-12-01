@@ -547,11 +547,13 @@
     /* -------------------------------------------------- */
 
     .b-video-box {
-        max-width: 1280px;
+        max-width: 1320px;
         margin: 70px auto;
+        padding: 0 80px;
         overflow: hidden;
-        width: 100%;
-        
+        width: auto;
+        position: relative;
+
     }
     .b-video-box .video-box__arrow-left,
     .b-video-box .video-box__arrow-right {
@@ -565,13 +567,13 @@
     }
     .b-video-box .video-box__arrow-left {
         z-index: 9999;
-        left: 10%;
+        left: 15px;
         position: absolute;
         transform: rotate(-135deg);
     }
     .b-video-box .video-box__arrow-right {
         z-index: 9999;
-        right: 10%;
+        right: 15px;
         position: absolute;
         transform: rotate(45deg);
     }
@@ -581,24 +583,37 @@
         border-right: 3px solid #003f84;
     }
     .b-video-box .video-box__slide {
-        min-width: 0;
+        position: relative;
+        height: auto;
+        overflow: hidden;
+        padding-top: 56.25%;
+        width: auto;
     }
     .b-video-box .video-box__slide iframe {
-        width: 401px;
-        height: 219px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        height: 100%;
     }
     /* -------------------------------------------------- */
 
-        .b-video-box--owl {
-            overflow: visible;
-        }
-        .b-video-box--owl .video-box__wrapper {
-            position: static;
-        }
-        .b-video-box--owl .video-box__arrow-left,
-        .b-video-box--owl .video-box__arrow-right {
-            top: 3050px;
-        }
+    .b-video-box--owl{
+        padding: 0 74px;
+    }
+    .b-video-box--owl .video-box__wrapper {
+        position: relative;
+    }
+    .b-video-box--owl .video-box__arrow-left, .b-video-box--owl .video-box__arrow-right{
+        margin-top: 0;
+        top: 50%;
+		margin-top: -30px;
+    }
+    .b-video-box--owl .video-box__arrow-left{
+        left: -64px;
+    }
+    .b-video-box--owl .video-box__arrow-right{
+        right: -64px;
+    }
 
     /* -------------------------------------------------- */
 
@@ -992,8 +1007,7 @@
         margin-right: 7px;
     }
     .b-footer .footer__container {
-        max-width: 100%;
-        width: 1320px;
+        max-width: 1320px;
         padding: 0 20px 0 20px;
         margin: 52px auto;
         display: flex;
